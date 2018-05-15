@@ -88,7 +88,8 @@ function LiskAPI (options) {
 		this.defaultPeers = options.defaultPeers;
 	} else {
 		this.defaultPeers = [
-			'http://35.190.157.172:9305'
+			'node1.sauco.io',
+			'node2.sauco.io'
 		];
 	}
 
@@ -96,7 +97,7 @@ function LiskAPI (options) {
 		this.defaultSSLPeers = options.defaultSSLPeers;
 	} else {
 		this.defaultSSLPeers = [
-			'http://35.190.157.172:9305'
+			'wallet.sauco.io'
 		];
 	}
 
@@ -104,7 +105,7 @@ function LiskAPI (options) {
 		this.defaultTestnetPeers = options.defaultTestnetPeers;
 	} else {	
 		this.defaultTestnetPeers = [
-			'http://35.190.157.172:9305'//'wallet.testnet.sauco.io'
+			'testnet.sauco.io'//'wallet.testnet.sauco.io'
 		];
 	}
 
@@ -131,19 +132,19 @@ LiskAPI.prototype.netHashOptions = function () {
 	return {
 		testnet: {
 			'Content-Type': 'application/json',
-			'nethash': 'cba57b868c8571599ad594c6607a77cad60cf0372ecde803004d87e679117c12',
-			'broadhash': 'cba57b868c8571599ad594c6607a77cad60cf0372ecde803004d87e679117c12',
+			'nethash': '1bce8da0d6e616482de1ebf920ef3875e166332affdd70f9a8a689babce54420',
+			'broadhash': '1bce8da0d6e616482de1ebf920ef3875e166332affdd70f9a8a689babce54420',
 			'os': 'sauco-js-api',
-			'version': '6.5.0',
+			'version': '6.8.0',
 			'minVersion': '>=6.5.0',
 			'port': this.port
 		},
 		mainnet: {
 			'Content-Type': 'application/json',
-			'nethash': '2680d31ac8e92a0a0898cffebfedf99adfb56b04f52b0a82577e1a940ab1694a',
-			'broadhash': '2680d31ac8e92a0a0898cffebfedf99adfb56b04f52b0a82577e1a940ab1694a',
+			'nethash': '942b858319e5169e76b1410446fa389fd2d2bc2da264b038726efb3bdab3d481',
+			'broadhash': '942b858319e5169e76b1410446fa389fd2d2bc2da264b038726efb3bdab3d481',
 			'os': 'sauco-js-api',
-			'version': '6.6.3',
+			'version': '6.8.0',
 			'minVersion': '>=6.6.2',
 			'port': this.port
 		}
@@ -1108,20 +1109,20 @@ module.exports = ParseOfflineRequest;
 
 module.exports = {
 	fees: {
-		send: 1000000,
+		send: 100000,
 		secondsignature: 10000000,
-		delegate: 6000000000,
+		delegate: 3000000000,
 		vote: 100000000,
 		multisignature: 50000000,
-		dapp: 2500000000
+		dapp: 2000000000
 	},
 	fee: {
-		0: 1000000,
+		0: 100000,
 		1: 10000000,
-		2: 6000000000,
+		2: 3000000000,
 		3: 100000000,
 		4: 50000000,
-		5: 2500000000
+		5: 2000000000
 	}
 };
 
