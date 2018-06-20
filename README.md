@@ -1,6 +1,6 @@
 # <a href="https://github.com/Sauco-Apps/sauco-js">Sauco-JS</a>
 
-Sauco JS is a JavaScript library for [Sauco - the cryptocurrency and blockchain application platform](https://github.com/Sauco-Apps/sauco). It allows developers to create offline transactions and broadcast them onto the network. It also allows developers to interact with the core Lisk API, for retrieval of collections and single records of data located on the Lisk blockchain. Its main benefit is that it does not require a locally installed Lisk node, and instead utilizes the existing peers on the network. It can be used from the client as a [browserify](http://browserify.org/) compiled module, or on the server as a standard Node.js module.
+Sauco JS is a JavaScript library for [Sauco - the cryptocurrency and blockchain application platform](https://github.com/Sauco-Apps/sauco). It allows developers to create offline transactions and broadcast them onto the network. It also allows developers to interact with the core Sauco API, for retrieval of collections and single records of data located on the Sauco blockchain. Its main benefit is that it does not require a locally installed Sauco node, and instead utilizes the existing peers on the network. It can be used from the client as a [browserify](http://browserify.org/) compiled module, or on the server as a standard Node.js module.
 
 [![Build Status](https://travis-ci.org/Sauco-Apps/sauco-js.svg?branch=development)](https://travis-ci.org/Sauco-Apps/sauco-js)
 [![Coverage Status](https://coveralls.io/repos/github/Sauco-Apps/sauco-js/badge.svg?branch=development)](https://coveralls.io/github/LiskHQ/lisk-js?branch=development)
@@ -37,7 +37,7 @@ npm test
 
 Tests written using mocha + schedule.js.
 
-## Documentation
+## Documentation (Ejemplos Lisk - pronto ejemplos en Sauco Wiki)
 
 - [Install](http://liskhq.github.io/lisk-js/index.html)
 - [API](http://liskhq.github.io/lisk-js/example/api.html)
@@ -55,7 +55,7 @@ Tests written using mocha + schedule.js.
 	- [Sign Multisignature Transaction](http://liskhq.github.io/lisk-js/example/api.html#functions_signMultisignature)
 - [Experiment (live)](http://liskhq.github.io/lisk-js/example/experiment.html)
 	- [Get Account Info](http://liskhq.github.io/lisk-js/example/experiment.html#get_account)
-	- [Send LSK](http://liskhq.github.io/lisk-js/example/experiment.html#send_lsk)
+	- [Send SAUCO](http://liskhq.github.io/lisk-js/example/experiment.html#send_lsk)
 	- [Sign Message](http://liskhq.github.io/lisk-js/example/experiment.html#sign)
 	- [Verify Message](http://liskhq.github.io/lisk-js/example/experiment.html#verify)
 	- [Encrypt Message](http://liskhq.github.io/lisk-js/example/experiment.html#encrypt)
@@ -63,14 +63,16 @@ Tests written using mocha + schedule.js.
 
 ## Authors
 
-- GoldenEye <goldeneye@sauco.io>
-- Ralf S <ralfs@sauco.io>
+- Sauco Team <sauco@sauco.io>
+- GoldenEye <goldeneye@shift.io>
+- Ralf S <ralfs@shift.io>
 - Boris Povod <boris@crypti.me>
 - Oliver Beddows <oliver@lightcurve.io>
 - Tobias Schwarz <tobias@lightcurve.io>
 
 ## License
 
+Copyright © 2018 Sauco
 Copyright © 2016-2017 Lisk Foundation
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
