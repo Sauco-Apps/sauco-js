@@ -73,7 +73,7 @@ describe('Lisk.api()', function () {
 				'nethash': '123',
 				'broadhash': 'ed14889723f24ecc54871d058d98ce91ff2f973192075c0155ba2b7b70ad2511',
 				'os': 'lisk-js-api',
-				'version': '0.0.0a',
+				'version': '6.8.0',
 				'minVersion': '>=0.5.0',
 				'port': 8000
 			};
